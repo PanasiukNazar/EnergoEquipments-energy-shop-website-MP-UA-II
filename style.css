@@ -1777,6 +1777,7 @@ Version:1.0
 }
 .single-product .product-img a img {
     width: 100%;
+    height: 300px;
 }
 .single-product .product-img a img.hover-img {
     position: absolute;
@@ -1840,7 +1841,6 @@ Version:1.0
 }
 .single-product .product-img .product-action {
     display: inline-block;
-    position: absolute;
     right: 0;
     bottom: 0;
     z-index: 99;
@@ -1919,7 +1919,6 @@ Version:1.0
     bottom: 45px;
 }
 .single-product .product-img .product-action-2 {
-    position: absolute;
     left: 0;
     bottom: 0;
     text-align: left;
@@ -1943,8 +1942,12 @@ Version:1.0
     color: #f7941d;
 }
 .single-product .button-head {
+    display: flex !important;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     background: #fff;
-    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 40px;
     width: 100%;
     position: absolute;
@@ -3016,7 +3019,7 @@ Version:1.0
 .shopping-summery tbody .price span {
 }
 .shopping-cart tbody .qty .input-group {
-    width: 175px;
+    width: 125px;
     display: inline-block;
 }
 .shopping-cart .qty .button {
